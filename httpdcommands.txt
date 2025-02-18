@@ -1,0 +1,6 @@
+    Starting, stopping, restarting a service (using httpd, the Apache web server, as an example) on a currently running system:
+    $ sudo systemctl start|stop|restart httpd.service
+    Enabling or disabling a system service from starting up at system boot:
+    $ sudo systemctl enable|disable httpd.service
+    Checking on the status of a service:
+    $ sudo systemctl status httpd.service

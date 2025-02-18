@@ -1,0 +1,7 @@
+The easiest solution
+
+    Ctrl + Z to suspend the process
+    bg to resume the process in the background
+    disown -ah to remove all jobs from the shell and make them ignore SIGHUP
+    exit to close the terminal
+
